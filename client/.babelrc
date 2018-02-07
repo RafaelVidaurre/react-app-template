@@ -1,0 +1,18 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    ["babel-plugin-root-import", [{ "rootPathSuffix": "src" }]],
+    [
+      "babel-plugin-react-css-modules",
+      {
+        "filetypes": {
+          ".scss": {
+            "syntax": "postcss-scss"
+          }
+        }
+      }
+    ],
+    "transform-decorators-legacy",
+    "transform-export-extensions"
+  ]
+}

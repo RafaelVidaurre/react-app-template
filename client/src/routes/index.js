@@ -5,7 +5,7 @@ import Home from '~/components/pages/Home';
 
 const Routes = () => (
   <Switch>
-    <Route path="/" component={() => <Home />} />
+    <Route path="/" component={() => <Home />} exact />
     <Route path="/page-not-found" component={() => <h1>404</h1>} />
     <Redirect push to="/page-not-found" />
   </Switch>

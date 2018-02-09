@@ -5,18 +5,20 @@
     "client": "node start-client.js"
   },
   "devDependencies": {
-    "concurrently": "^3.5.1",
     "babel-eslint": "^8.2.1",
+    "concurrently": "^3.5.1",
     "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-promise": "^3.6.0",
-    "jest": "^22.0.6"
+    "jest": "^22.0.6",
+    "stylelint-processor-styled-components": "^1.2.2"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-plugin-root-import": "^5.1.0",
+    "babel-plugin-module-resolver": "^3.0.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",

@@ -2,6 +2,14 @@
   "presets": ["env"],
   "plugins": [
     "transform-class-properties",
-    ["babel-plugin-root-import", [{ "rootPathSuffix": "src" }]]
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "~": "/src"
+        }
+      }
+    ]
   ]
 }

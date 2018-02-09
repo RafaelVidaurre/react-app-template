@@ -7,7 +7,7 @@ import { routerMiddleware } from 'react-router-redux';
 import rootReducer from '~/reducers';
 import history from '~/history';
 
-const middleware = [];
+const middleware: Array<Function> = [];
 const enhancers = [];
 const router = routerMiddleware(history);
 
